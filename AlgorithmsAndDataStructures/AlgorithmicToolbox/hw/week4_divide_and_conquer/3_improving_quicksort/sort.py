@@ -1,0 +1,9 @@
+# Uses python3
+import sys
+
+if __name__ == '__main__':
+    input = sys.stdin.read()
+    n, *a = list(map(int, input.split()))
+    a = sorted(a)
+    for x in a:
+        print(x, end=' ')
